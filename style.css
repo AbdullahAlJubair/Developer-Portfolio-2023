@@ -3,12 +3,13 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/*-------Navbar Design--------*/
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FFF8F3;
-    padding: 20px 20px 20px 150px;
+    padding: 20px 20px 20px 180px;
 }
 nav h3 {
     color: #181818;
@@ -34,10 +35,49 @@ nav li a{
     font-size: 16px;
     font-weight: 400;
 }
-.nav-btn {
+.primary-btn {
     padding: 10px 20px;
+    margin-right: 20px;
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
     color: #fff;
+    cursor: pointer;
+}
+/*-------Banner Section Design--------*/
+.banner {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 40px 0px 12px 180px;
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+}
+.header-container {
+    max-width: 500px;
+}
+.header-subTitle {
+    color: #474747;
+    font-size: 35px;
+    font-weight: 600;
+}
+.header-title {
+    color:  #181818;
+    font-size: 60px;
+    font-weight: 700;
+}
+.header-text {
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.header-img img{
+    width: 500px;
+    
 }
